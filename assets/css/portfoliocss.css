@@ -1,0 +1,59 @@
+.portfolio-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+#row {
+    display: flex;
+}
+
+#image-text {
+    position: absolute;
+    color: red;
+    background-color: blue ;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    padding: 15px;
+}
+
+#image {
+    display: flex;
+    position: relative;
+}
+
+.image-text-alignment {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 200px;
+    background-color:#4aaaa5;
+    margin: 15px;
+    padding: 10px 0 10px 0;
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+    #main-content{
+        width: 100%;
+        
+    }
+
+    .image-text-alignment {
+        width: 320px;
+        height: 30px;
+        bottom: 40px;
+        margin: 27px;
+        line-height: 30px;
+    }
+
+    img{
+        height: 320px;
+        width: 320px;
+        padding: 27px;
+    }
+}
