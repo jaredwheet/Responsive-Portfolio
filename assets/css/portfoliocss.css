@@ -51,9 +51,32 @@ img {
         line-height: 30px;
     }
 
+    
+
     img{
         height: 320px;
         width: 320px;
         padding: 27px;
     }
 }
+
+@media screen and (max-width:640px){
+    #row{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .name {
+        padding: 30px;
+    }
+    
+    ul {
+        padding-inline-start: 0px;
+        margin-block-end: 0px;
+        margin-block-start: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+

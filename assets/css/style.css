@@ -4,6 +4,7 @@ body {
     align-items: center;        
     margin: 0;
     padding: 0; 
+    
     background-image: url("../images/concrete_seamless.png"); 
     
 }
@@ -75,7 +76,7 @@ a:active {
 
 a:hover {
     text-decoration: underline;
-    background-color: #4aaa4a;
+    background-color: #6c6d6c;
 }
 
 #main-content {
@@ -144,12 +145,17 @@ a[href^="mailto"]:hover{
 
     body {
         align-items: flex-start;
+        
     }
     
     #main-content{
-        width: 600px;
-        
+        width: 600px;        
         margin-left: 50px;
+        
+    }
+
+    p {
+        font-size: 24px;
     }
     #header-content {
         width: 880px;
@@ -162,6 +168,7 @@ a[href^="mailto"]:hover{
 @media screen and (max-width:768px) {
     body {
         align-items: flex-start;
+        
     }
     
     #main-content{
@@ -170,24 +177,91 @@ a[href^="mailto"]:hover{
         margin-left: 5px;
     }
 
+    p {
+        font-size: 24px;
+    }
+
     .name {
         margin-left: 15px;
     }
     #header-content {
         width: 100%;
-        padding-right: 20px;
+        padding-right: 25px;
     }    
+
+    
     hr {
         width: 720px;
     }
-}
+
 
 @media screen and (max-width:640px) {
+    body{
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+        
+    }
 
-}
+    header {
+        width: 100%;
+    }
+    
+    #headshot {
+        height: 400px;
+    }
+    
+    .name {
+        width: 100%;        
+        margin: 0px;
+        padding: 30px;
+        text-align: center;
+        vertical-align: 50%;
 
+    }
+    ul {
+        padding-inline-start: 0px;
+        margin-block-end: 0px;
+        margin-block-start: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
 
+    hr {
+        width: 90%;
+    }
 
+    #main-content {
+        width: 100%;
+        margin-bottom: 150px;
+        
+    }
 
+    #heading2 {
+        font-size: 40px;
+    }
 
+    p {
+        font-size: 30px;
+        line-height: 35px;
+        ;
+    }
 
+    #header-content{
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+    }
+
+    #footer-text{
+        font-size: 20px;
+    }
+    footer {
+        height: 100px;
+    }
+
+    #contact-heading {
+        font-size: 40px;
+    }
+}}
