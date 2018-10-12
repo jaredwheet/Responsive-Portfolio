@@ -77,6 +77,19 @@ img {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
+    #headshot {
+        height: 250px;
+    }
+
+    #main-content {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    footer{
+        font-size: 18px;
+    }
 }
 
 
