@@ -91,9 +91,7 @@ input[name="message"] {
         margin-bottom: 20px;
     }
 
-    input[name="message"] {
-        /* height: 200px; */
-    }
+    
 }
 
 @media screen and (max-width:640px){
